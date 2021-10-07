@@ -21,7 +21,9 @@ h1 {
     color: var(--grey);
 }
 
-p {
-    background-color: var(--tan);
-    color: var(--grey)
+.p1 {
+    background-color: var(--blue);
+}
+.p2 {
+    background-color: var(--red);
 }
