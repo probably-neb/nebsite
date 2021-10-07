@@ -1,0 +1,27 @@
+:root {
+    --tan: #D8CEB3;
+    --grey: #504E4F;
+    --red: #E3242A;
+    --orange: #E76740;
+    --yellow: #F3C900;
+    --green: #4FB539;
+    --blue: #09A4EC;
+}
+
+div#leftside {float: left; margin: 0; padding: 4px; width: 9pc;}
+div#rightside {margin-right: 17%; margin-left: 9pc; padding: 0;}
+
+.background {
+    background-image: url("memphis-mini.png");
+    background-repeat: repeat;
+}
+
+h1 {
+    background-color: var(--yellow);
+    color: var(--grey);
+}
+
+p {
+    background-color: var(--tan);
+    color: var(--grey)
+}
