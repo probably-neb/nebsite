@@ -12,7 +12,7 @@ div#leftside {float: left; margin: 0; padding: 4px; width: 9pc;}
 div#rightside {margin-right: 17%; margin-left: 9pc; padding: 0;}
 
 .background {
-    background-image: url("memphis-mini.png");
+    background-image: url("images/memphis-mini.png");
     background-repeat: repeat;
 }
 
