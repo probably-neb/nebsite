@@ -2,7 +2,7 @@
     --tan: #D8CEB3;
     --grey: #504E4F;
     --red: #E3242A;
-    --orange: #E76740;
+    --orange: #e65f36;
     --yellow: #F3C900;
     --green: #4FB539;
     --blue: #09A4EC;
@@ -12,17 +12,22 @@ div#leftside {float: left; margin: 0; padding: 4px; width: 9pc;}
 div#rightside {margin-right: 17%; margin-left: 9pc; padding: 0;}
 
 .background {
-    background-image: url("images/memphis-mini.png");
+    background-image: url("images/inverse.png");
     background-repeat: repeat;
 }
 
-h1 {
-    background-color: var(--yellow);
-}
+.yellowbox {background-color: var(--yellow);}
+.bluebox {background-color: var(--blue);}
+.redbox {background-color: var(--red);}
+.orangebox {background-color: var(--orange);}
+.tanbox {background-color: var(--tan);}
+.greybox {background-color: var(--grey);}
+.greenbox {background-color: var(--green);}
 
-.p1 {
-    background-color: var(--blue);
-}
-.p2 {
-    background-color: var(--red);
-}
+.yellowcolor {color: var(--yellow);}
+.bluecolor {color: var(--blue);}
+.redcolor {color: var(--red);}
+.orangecolor {color: var(--orange);}
+.tancolor {color: var(--tan);}
+.greycolor {color: var(--grey);}
+.greencolor {color: var(--green);}
