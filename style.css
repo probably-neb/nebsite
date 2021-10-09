@@ -15,7 +15,12 @@ div#rightside {margin-right: 10%; margin-left: 20%; padding: 0;}
 	background-image: url("images/topography.png");
     background-repeat: repeat;
 }
-
+.center {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 90;
+} 
 .yellowbox {background-color: var(--yellow);}
 .bluebox {background-color: var(--blue);}
 .redbox {background-color: var(--red);}
