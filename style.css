@@ -8,11 +8,11 @@
     --blue: #09A4EC;
 }
 
-div#leftside {float: left; margin: 0; padding: 4px; width: 9pc;}
-div#rightside {margin-right: 17%; margin-left: 9pc; padding: 0;}
+div#leftside {float: left; margin: 3; padding: 4px; width: 8pc;}
+div#rightside {margin-right: 10%; margin-left: 20%; padding: 0;}
 
 .background {
-    background-image: url("images/inverse.png");
+	background-image: url("images/topography.png");
     background-repeat: repeat;
 }
 
