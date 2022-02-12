@@ -12,7 +12,8 @@ div#leftside {float: left; margin: 3; padding: 4px; width: 8pc;}
 div#rightside {margin-right: 10%; margin-left: 20%; padding: 0;}
 
 .background {
-	background-image: url("images/topography.png");
+	/* background-image: url("images/bananas.png"); */
+    background-color: antiquewhite;
     background-repeat: repeat;
 }
 .center {
