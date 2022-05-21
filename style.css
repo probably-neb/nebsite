@@ -1,4 +1,4 @@
-/*valentines*/
+/* valentines
 :root {
     --tan: #D8CEB3;
     --grey: #504E4F;
@@ -7,24 +7,26 @@
     --yellow: #ff6f77;
     --green: #ff8896;
     --blue: #09A4EC;
+} */
+
+:root {
+   --tan: #D8CEB3;
+   --grey: #504E4F;
+   --red: #E3242A;
+   --orange: #e65f36;
+   --yellow: #F3C900;
+   --green: #4FB539;
+   --blue: #09A4EC;
+   
 }
 
-/*:root {*/
-/*    --tan: #D8CEB3;*/
-/*    --grey: #504E4F;*/
-/*    --red: #E3242A;*/
-/*    --orange: #e65f36;*/
-/*    --yellow: #F3C900;*/
-/*    --green: #4FB539;*/
-/*    --blue: #09A4EC;*/
-/*}*/
 div#leftside {float: left; margin: 3; padding: 4px; width: 8pc;}
 div#rightside {margin-right: 10%; margin-left: 20%; padding: 0;}
 
 .background {
-    background-image: url("valentines-pattern.png");
-    background-color: var(--orange);
-    background-repeat: repeat;
+    /* background-image: url("images/bananas.png"); */
+    background-color: var(--tan);
+    /* background-repeat: repeat; */
 }
 .center {
     display: block;

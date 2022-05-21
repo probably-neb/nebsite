@@ -1,3 +1,5 @@
 idea/*
 idea/
 .idea
+deprecated
+bookmarks.json
