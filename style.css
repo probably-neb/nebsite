@@ -34,6 +34,14 @@ div#rightside {margin-right: 10%; margin-left: 20%; padding: 0;}
     margin-right: auto;
     width: 90;
 } 
+.yellowframe {outline: 2px solid var(--yellow);}
+.blueframe {outline: 2px solid var(--blue);}
+.redframe {outline: 2px solid var(--red);}
+.orangeframe {outline: 2px solid var(--orange);}
+.tanframe {outline: 2px solid var(--tan);}
+.greyframe {outline: 2px solid var(--grey);}
+.greenframe {outline: 2px solid var(--green);}
+
 .yellowbox {background-color: var(--yellow);}
 .bluebox {background-color: var(--blue);}
 .redbox {background-color: var(--red);}
