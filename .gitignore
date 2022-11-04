@@ -3,3 +3,7 @@ idea/*
 deprecated
 bookmarks.json
 *node_modules*
+node_modules
+npm-debug.log
+.DS_STORE
+*.swp
