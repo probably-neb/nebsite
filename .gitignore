@@ -7,3 +7,4 @@ node_modules
 npm-debug.log
 .DS_STORE
 *.swp
+launch_live_preview.sh
