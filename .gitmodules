@@ -1,3 +1,3 @@
 [submodule "ant-sim"]
-	path = ant-sim
+	path = ant-sim-mod
 	url = git@github.com:probably-neb/ant-sim.git
