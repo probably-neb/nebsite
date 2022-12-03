@@ -9,3 +9,4 @@ npm-debug.log
 *.swp
 launch_live_preview.sh
 build_ant_sim.sh
+!./ant-sim/bin/*
