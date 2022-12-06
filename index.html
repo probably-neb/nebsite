@@ -8,41 +8,83 @@
     <title> baby's first website </title>
     <meta name="author" content="">
     <meta name="description" content="">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="viewport" content="width=device-width, initial-scale=1.6">
     <!-- <link rel="stylesheet" href="/tachyons/css/tachyons.css" /> -->
     <link rel="stylesheet" href="https://unpkg.com/tachyons@4.12.0/css/tachyons.min.css" />
+    <style type="text/css">
+    .inv:hover{
+        -webkit-filter: invert(100%);
+        filter: invert(100%);
+    }
+    .bub{
+        br3
+    }
+    </style>
 </head>
 
 <body class="bg-yellow">
    <div class="flex">
-      <div class="fl w-10 ma2">
-         <a class="bg-near-white near-black inline-flex ma2 pa2 br2" href="resume.html">
+      <div class="fl w-1 ma2">
+         <a class="bg-near-white near-black inline-flex ma2 pa2 br2 inv" href="resume.html">
             <img src="images/cv_icon.png" class="contain" style="width: auto; height: auto;max-width: 40px;max-height: 40px">
          </a>
       </div>
-      <div class="fl w-10 ma2">
-         <a class="no-underline near-white bg-animate bg-near-black hover-bg-gray inline-flex items-center ma2 tc br2 pa2" href="https://github.com/probably-neb" title="GitHub">
+      <div class="fl w-1 ma2">
+         <a class="no-underline near-white bg-animate bg-near-black inv inline-flex items-center ma2 tc br2 pa2" href="https://github.com/probably-neb" title="GitHub">
             <img src="images/github.png" class="contain" style="width: auto; height: auto;max-width: 40px;max-height: 40px">
-         </a>
-      </div>
-      <div class"fl h-10">
-         <a class="no-underline near-white bg-animate bg-light-red hover-bg-red inline-flex items-center ma2 tc br2 pa2" href="./ant_sim/ant_sim.html" title="Ant Sim!">
-            <img src="images/wordle.png" class="pr2" style="width: auto; height: auto;max-width: 40px;max-height: 40px">
-            <span>Ant Sim</span>
          </a>
       </div>
    </div>
 
-   <div class="fl h-10">
-      <div class="fl w-80">
-         <h2 class="measure-wide ml4">baby's first website</h2>
-      </div>
-      <div class"fl h-10">
-         <a class="no-underline near-white bg-animate bg-light-red hover-bg-red inline-flex items-center ma2 tc br2 pa2" href="wordle.html" title="GitHub">
-            <img src="images/wordle.png" class="pr2" style="width: auto; height: auto;max-width: 40px;max-height: 40px">
+          <center>
+             <h1 class="measure-wide ml4">baby's first website</h1>
+             <h3 class="measure-wide i near-gray">The <small>(WIP)</small> Home of Ben Kunkle</h3>
+          </center>
+          <div class="bub bg-near-gray">
+              <h2 class="measure-wide ml4"><u>Projects</u></h2>
+          </div>
+          <!-- <ul> -->
+          <!-- </ul> -->
+      <div class="flex w-100 dib">
+      <div class"fl w-10">
+         <a class="no-underline near-black bg-animate bg-transparent hover-near-white hover-bg-red inline-flex items-center ma2 tc br2 pa2" href="wordle.html" title="GitHub">
+            <img src="images/wordle.png" class="pr2 contain" style="width: auto; height: auto;max-width: 40px;max-height: 40px">
             <span>Valentines Wordle</span>
          </a>
       </div>
-      <footer >
-      </footer>
+      <div class"fl w-10">
+         <a class="no-underline black bg-animate bg-transparent hover-bg-near-white inline-flex items-center ma2 tc br3 pa2" href="./ant_sim/ant_sim.html" title="Ant Sim!">
+            <img src="ant_sim/site-assets/map-with-ants.png" class="contain br3" style="width: auto; height: auto;max-width: 40px">
+            <span class="ml2">Ant Sim</span>
+         </a>
+      </div>
+      </div>
 </body>
+<!-- <center class="center"> -->
+<!-- <footer class="ba w-80 pa3 br3 ma2" style="bottom: 0; position: fixed; "> -->
+<!-- Geekring widget #2 - Fancy banner (you can chose .png .gif or .jpg -->
+     <!-- <img src="http://geekring.net/banner/geek_1.jpg" alt="geekring.net nvigation" usemap="#geekringmap"> -->
+     <!-- <div class="flex w-50"> -->
+     <!--     <div class="w-33"><a href="http://geekring.net/site/NUMBER/previous">previous (random) site</a></div> -->
+     <!-- </div> -->
+     <!-- <div class="mw9 center ph3-ns"> -->
+  <!-- <div class="cf ph2-ns"> -->
+    <!-- <div class="fl w-100 w-third-ns pa2"> -->
+     <!--  <div class="outline bg-white pv4"></div> -->
+    <!-- </div> -->
+    <!-- <div class="fl w-100 w-third-ns pa2"> -->
+     <!--  <div class="outline bg-white pv4"></div> -->
+    <!-- </div> -->
+    <!-- <div class="fl w-100 w-third-ns pa2"> -->
+     <!--  <div class="outline bg-white pv4"></div> -->
+    <!-- </div> -->
+  <!-- </div> -->
+<!-- </div> -->
+     <!-- <map name="geekringmap"> -->
+     <!--     <area shape="rect" coords="9,28,111,53" alt="Previous geekring site" > -->
+     <!--     <area shape="rect" coords="248,28,350,53" alt="Random geekring site" href="http://geekring.net/site/NUMBER/random"> -->
+     <!--     <area shape="rect" coords="490,28,592,53" alt="Next geekring site" href="http://geekring.net/site/NUMBER/next"> -->
+     <!--     <area shape="rect" coords="465,6,566,22" alt="Main geekring site" href="http://geekring.net/"> -->
+     <!-- </map> -->
+</footer>
+<!-- </center> -->

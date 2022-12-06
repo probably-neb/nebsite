@@ -13,11 +13,18 @@
 </head>
 
 <p>Ben Kunkle</p>
-<p>BMED-213-71-2228 - Bioengineering Fundamentals</p>
+<!-- <p>BMED-213-71-2228 - Bioengineering Fundamentals</p> -->
 <center>
   <h3>Anthill Representations of Peer-to-peer Networks</h3>
 </center>
 <hr />
+  <center class="mu4 pv2">
+  <p>
+    <a class="ba br3 no-underline ma4 pa2" href="./bin/ant_sim.html"
+      >You can run the simulation yourself in the browser!</a
+    >
+  </p>
+  </center>
 
 <body class="ma3">
   <h5>Introduction to Peer to Peer Networks</h5>
@@ -126,10 +133,10 @@
     </li>
     <br />
     <center>
-      <figure>
+      <figure class="mw-3">
         <img
           src="./site-assets/map-no-ants.png"
-          style="width: auto; height: auto"
+          style="max-width: 20%"
         />
         <figcaption><i>The empty map</i></figcaption>
       </figure>
@@ -170,8 +177,8 @@
         </li>
         <br />
         <li>
-          \(f_r\) is the factor for how recent the ant visited the nest
-          calculated from: $$ \left(\frac{1}{w_r}\right)^{p_r} $$ where:
+          \(f_r\) is the factor for how recent the ant visited the nest: 
+          $$ \left(\frac{1}{w_r}\right)^{p_r} $$ where:
           <ul>
             <li>\(n\) is the number of times we've visited the nest</li>
             <li>
@@ -199,10 +206,9 @@
     </li>
     <br />
     <li>
-      a nest is then chosen at random where the chance each nest is chosen is
-      the percentage calculated from the goodness
+      a nest is then chosen at random using a weighted average where each weight is it's calculated goodness
     </li>
-    <br />
+    <br/>
     <li>
       the ant then travels to the chosen nest increasing the pheromone strength
       of the ants <em><b>parent</b></em> nest<br />. The parent nests pheromone
@@ -214,8 +220,16 @@
       nests color and wanders home
     </li>
   </ol>
-  <p>You can watch a time lapse of the simulation below.</p>
 
+  <center class="mu4 pv2">
+  <p>
+    <a class="ba br3 no-underline ma4 pa2" href="./bin/ant_sim.html"
+      >You can run the simulation yourself in the browser!</a
+    >
+  </p>
+  </center>
+        
+  <p>Or you can watch a (now outdated) time lapse of the simulation below.</p>
   <iframe
     width="560"
     height="315"
@@ -225,9 +239,3 @@
     allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
     allowfullscreen
   ></iframe>
-
-  <p>
-    <a href="./bin/ant_sim.html"
-      >Or you can run the simulation yourself in the browser!</a
-    >
-  </p>
