@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>baby's first website</title>
+    <link rel="stylesheet" href="../../style.css" />
+    <script>
+      var cur = "img";
+      var alt = "obj";
+      const set_visible = function () {
+        document.getElementById(cur).style.display = "block";
+        document.getElementById(alt).style.display = "none";
+      };
+      const swap = function () {
+        if (cur === "img") {
+          cur = "obj";
+          alt = "img";
+        } else {
+          cur = "img";
+          alt = "obj";
+        }
+        set_visible();
+        // console.log(cur);
+      };
+    </script>
+        <style>
+        .previewer{
+            width: 90%;
+            aspect-ratio: 8.5/11;
+            align-items: center;
+        }
+        </style>
+  </head>
+  <body class="background" onload="set_visible()">
+    <button id="swap" onclick="swap()">Swap Previewer</button>
+        <center>
+    <img
+      id="img"
+      src="./resume.jpg"
+        class="previewer"
+      style="display: none"
+    />
+    <object
+      id="obj"
+      data="./resume.pdf#view=FitH"
+      type="application/pdf"
+      style="display: none;"
+        class="previewer"
+    >
+      <p>
+        Your web browser doesn't have a PDF plugin.<br />
+        Click the button below to download the PDF file.
+      </p>
+    </object></center>
+    <h1 class="yellowbox">
+      <a
+        href="./resume.pdf"
+        download="Benjamin-Kunkle-Resume"
+        style="color: var(--blue)"
+      >
+        <p>Download Resume PDF</p>
+      </a>
+    </h1>
+  </body>
+</html>

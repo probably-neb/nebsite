@@ -1,3 +1,12 @@
 [submodule "ant-sim"]
-	path = ant-sim-mod
+	path = modules-src/ant-sim
 	url = git@github.com:probably-neb/ant-sim.git
+[submodule "modules-src/bondfauna"]
+	path = modules-src/bondfauna
+	url = git@github.com:probably-neb/bondfauna.git
+[submodule "modules-src/resume"]
+	path = modules-src/resume
+	url = git@github.com:probably-neb/resume.git
+[submodule "modules-src/wfc-rust"]
+	path = modules-src/wfc-rust
+	url = git@github.com:probably-neb/wfc-rust.git
